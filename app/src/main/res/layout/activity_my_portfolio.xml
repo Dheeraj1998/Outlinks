@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:padding="@dimen/standard_padding"
+    tools:context="com.example.inshortsapp.app.MyPortfolio">
+
+    <TextView
+        android:id="@+id/first_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/name_letter" />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_letter"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="DHEERAJ NAIR"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/my_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_name"
+        android:layout_centerHorizontal="true"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:padding="5dp"
+        android:text="3rd Year CSE Student, VIT University\nhttps://dheeraj1998.github.io"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_details"
+        android:layout_marginTop="@dimen/standard_padding" />
+
+    <TextView
+        android:id="@+id/project_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:textAlignment="center" />
+
+</RelativeLayout>
