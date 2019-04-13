@@ -1,4 +1,6 @@
 # Outlinks
+<p align = "center"><img src="https://github.com/Dheeraj1998/Outlinks/blob/master/app/src/main/res/mipmap/ic_launcher.png" width = 10%"></img></p>
+  
 This is the submission for a Android application development challenge by Inshorts. The competition was conducted on [HackerEarth](https://www.hackerearth.com/challenge/hiring/inshorts-android-app-development-hiring-challenge/) 
 and this application was developed in under 7 hours.
 
